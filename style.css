@@ -1,0 +1,38 @@
+   .column {
+       float: left;
+       width: 13.33%;
+       padding: 5px;
+       left: 100px;
+   }
+
+   /* Clear floats after image containers */
+   .row::after {
+       content: "";
+       clear: both;
+       display: table;
+       left: 100px;
+   }
+
+   #fb {
+       display: none;
+   }
+
+   #pour {
+       display: none;
+   }
+
+   #fb2 {
+       display: none;
+   }
+
+   #fb3 {
+       display: none;
+   }
+
+   #stir {
+       display: none;
+   }
+
+   #fb4 {
+       display: none;
+   }
